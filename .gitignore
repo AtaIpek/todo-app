@@ -1,2 +1,5 @@
 # VSC Settings
 .vscode
+
+# Compiled Files
+/bin
