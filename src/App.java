@@ -1,3 +1,5 @@
+import java.util.List;
+
 public class App {
     public static void main(String[] args) throws Exception {
         // Objective:
@@ -14,7 +16,7 @@ public class App {
         }
         todoList.print();
 
-        todoList.sortByPriority();
-        todoList.print();
+        // todoList.sortByPriority();
+        // todoList.print();
     }
 }
