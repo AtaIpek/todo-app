@@ -16,7 +16,7 @@ public class App {
         }
         todoList.print();
 
-        // todoList.sortByPriority();
-        // todoList.print();
+        todoList.sortByPriority();
+        todoList.print();
     }
 }

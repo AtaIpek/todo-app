@@ -64,8 +64,8 @@ public class Todo implements Comparable<Todo> {
     @Override
     public String toString() {
         return String.format(
-                "Title: %s, Description: %s, Priority: %d, Done: %b",
-                this.title, this.description, this.priority, this.isDone);
+                "Title: %s, Priority: %d",
+                this.title, this.priority);
     }
 
 }
